@@ -6,7 +6,7 @@ version = MODREV .. SPECREV
 description = {
   summary = 'Nvim Treesitter configurations and abstraction layer',
   labels = { 'neovim' },
-  homepage = 'https://github.com/nvim-treesitter/nvim-treesitter',
+  homepage = 'https://github.com/MrcJkb/nvim-treesitter-fork',
   license = 'Apache-2.0',
 }
 
@@ -15,13 +15,13 @@ dependencies = {
 }
 
 source = {
-  url = 'http://github.com/nvim-treesitter/nvim-treesitter/archive/v' .. MODREV .. '.zip',
+  url = 'https://github.com/MrcJkb/nvim-treesitter-fork/archive/v' .. MODREV .. '.zip',
   dir = '.'
 }
 
 if MODREV == 'scm' then
   source = {
-    url = 'git://github.com/nvim-treesitter/nvim-treesitter',
+    url = 'git://github.com/MrcJkb/nvim-treesitter-fork',
   }
 end
 
